@@ -34,7 +34,9 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
     Vehicle(imageUrl: "https://via.placeholder.com/300"),
     Vehicle(imageUrl: "https://via.placeholder.com/300"),
     Vehicle(imageUrl: "https://via.placeholder.com/300"),
-    Vehicle(imageUrl: "https://via.placeholder.com/300"),
+    Vehicle(
+        imageUrl:
+            "https://lh3.googleusercontent.com/proxy/O1vF_h6wzkMylEDMPw39uct918gZkPnRNlBOwH03yoENKtdO1WhNP50XDxip7zAPzHXXpErw6ZIFaWAKPQ_EXQw4raF9-xfkWJSdOs5zbuW33oBafP2k8Z_EZgX4GYbXm1r1qTkPZec_kdrnTqAdtUCxzJnASUjJnF-r7YRgBbfUEsmYX6NNwE-whz5qxvmGHakQEw"),
   ];
 
   @override
