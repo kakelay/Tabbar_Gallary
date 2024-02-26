@@ -9,12 +9,13 @@ class Vehicle {
   Vehicle({required this.imageUrl});
 }
 
-class MyApp extends StatefulWidget {
+class ZoomImages extends StatefulWidget {
   @override
-  _MyAppState createState() => _MyAppState();
+  _ZoomImagesState createState() => _ZoomImagesState();
 }
 
-class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
+class _ZoomImagesState extends State<ZoomImages>
+    with SingleTickerProviderStateMixin {
   late TabController _tabController;
 
   List<Vehicle> activeVehicleList = [
@@ -36,7 +37,7 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
     Vehicle(imageUrl: "https://via.placeholder.com/300"),
     Vehicle(
         imageUrl:
-            "https://lh3.googleusercontent.com/proxy/O1vF_h6wzkMylEDMPw39uct918gZkPnRNlBOwH03yoENKtdO1WhNP50XDxip7zAPzHXXpErw6ZIFaWAKPQ_EXQw4raF9-xfkWJSdOs5zbuW33oBafP2k8Z_EZgX4GYbXm1r1qTkPZec_kdrnTqAdtUCxzJnASUjJnF-r7YRgBbfUEsmYX6NNwE-whz5qxvmGHakQEw"),
+            "https://nunne.ee/wp-content/uploads/2023/08/intro2-1430x720.jpeg"),
   ];
 
   @override

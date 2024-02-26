@@ -1,10 +1,8 @@
- 
-
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/vichicle.dart';
+import 'package:flutter_application_1/zoom_images.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: MyApp(),
+    home: ZoomImages(),
   ));
 }
